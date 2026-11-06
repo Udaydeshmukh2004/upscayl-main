@@ -1,0 +1,20 @@
+{
+  "compilerOptions": {
+    "target": "es2016",
+    "module": "commonjs",
+    "rootDir": "./",
+    "outDir": "./export",
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
+    "strict": true,
+    "noImplicitAny": false,
+    "skipLibCheck": true,
+    "paths": {
+      "@electron/*": ["./electron/*"],
+      "@/*": ["./renderer/*"],
+      "@common/*": ["./common/*"]
+    }
+  },
+  "include": ["./electron/**/*", "./common/**/*", "./renderer/**/*"],
+  "exclude": ["node_modules", "public", "renderer"]
+}

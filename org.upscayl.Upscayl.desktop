@@ -1,0 +1,8 @@
+[Desktop Entry]
+Name=Upscayl
+Comment=Free and Open Source AI Image Upscaler
+Exec=upscayl %U
+Icon=org.upscayl.Upscayl
+Type=Application
+Categories=ImageProcessing;RasterGraphics;Graphics;
+StartupNotify=false
